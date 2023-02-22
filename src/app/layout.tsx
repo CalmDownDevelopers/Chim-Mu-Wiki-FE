@@ -118,7 +118,6 @@ export default function RootLayout({
           `,
           }}
         ></Script>
-        <h3>기본 레이아웃</h3>
         {children}
       </body>
     </html>

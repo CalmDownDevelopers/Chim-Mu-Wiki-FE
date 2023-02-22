@@ -18,7 +18,13 @@ module.exports = {
       borderWidth: unit0_10,
       // 컬러 추가
       colors: {
-        blue: "#1fb6ff",
+        main: "#008275",
+        highlight: "#00A495",
+        background_main: "#FFFFFF",
+        background_sub: "#EFEFEF",
+        text_main: "#393939",
+        text_sub: "#545454",
+        border: "#CCCCCC",
       },
     },
   },

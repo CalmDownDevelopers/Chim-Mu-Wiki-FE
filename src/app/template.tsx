@@ -1,9 +1,9 @@
-import React from 'react';
+import { Header } from "../components/Header/Header";
 
 const template = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
-      <h3>template</h3>
+      <Header />
       {children}
     </div>
   );

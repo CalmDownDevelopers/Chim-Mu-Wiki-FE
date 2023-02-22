@@ -2,9 +2,9 @@ import type { NextSeoProps } from "next-seo";
 
 export const NEXT_SEO_DEFAULT: NextSeoProps = {
   title: undefined,
-  titleTemplate: "%s | 프로젝트이름",
-  defaultTitle: "프로젝트이름",
-  description: "프로젝트설명",
+  titleTemplate: "%s | 침무위키",
+  defaultTitle: "침무위키",
+  description: "한국인들만의 밈 백과사전",
   canonical: "https://", // 중복 URL이 있을 때 검색엔진에 대표가 되는 URL 주소를 알려준다.
   // canonical URL reference : https://developers.google.com/search/docs/advanced/crawling/consolidate-duplicate-urls?hl=ko&visit_id=638076126224869568-2592139246&rd=1
   mobileAlternate: {
@@ -27,7 +27,7 @@ export const NEXT_SEO_DEFAULT: NextSeoProps = {
         secureUrl: "secureUrl",
       },
     ],
-    siteName: "SiteName A",
+    siteName: "침무위키",
   },
   twitter: {
     handle: "@handleA", // twitter:creator
