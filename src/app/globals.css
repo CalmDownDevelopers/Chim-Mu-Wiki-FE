@@ -5,7 +5,16 @@
 /* HTML요소에 기본 스타일 추가 */
 @layer base {
   h1 {
-    @apply text-2xl;
+    @apply text-[4rem] font-bold text-text_main;
+  }
+  h2 {
+    @apply text-[3rem] font-bold text-text_main;
+  }
+  h3 {
+    @apply text-[2rem] font-semibold text-text_main;
+  }
+  h4 {
+    @apply text-[1.5rem] text-text_sub;
   }
 }
 
