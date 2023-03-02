@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Dict from "../assets/icons/dictionary.svg";
-import Write from "../assets/icons/write.svg";
-import Video from "../assets/icons/video.svg";
-import Send from "../assets/icons/send.svg";
+import Dict from "@/assets/icons/dictionary.svg";
+import Write from "@/assets/icons/write.svg";
+import Video from "@/assets/icons/video.svg";
+import Send from "@/assets/icons/send.svg";
 
 const NavigateButton = ({
   title,

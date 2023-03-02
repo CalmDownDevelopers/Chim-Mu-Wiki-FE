@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Logo from "../../assets/icons/logo.svg";
-import User from "../../assets/icons/user.svg";
+import Logo from "@/assets/icons/logo.svg";
+import User from "@/assets/icons/user.svg";
 
 export const Header = () => {
   return (

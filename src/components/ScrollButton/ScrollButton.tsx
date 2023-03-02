@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ArrowUp from "../../assets/icons/arrow_up.svg";
+import ArrowUp from "@/assets/icons/arrow_up.svg";
 
 export const ScrollButton = () => {
   return (

@@ -1,5 +1,5 @@
-import { Header } from "../components/Header/Header";
-import { ScrollButton } from "../components/ScrollButton/ScrollButton";
+import { Header } from "@/components/Header/Header";
+import { ScrollButton } from "@/components/ScrollButton/ScrollButton";
 
 const template = ({ children }: { children: React.ReactNode }) => {
   return (
